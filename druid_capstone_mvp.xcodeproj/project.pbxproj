@@ -1,0 +1,654 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E5177AE2942BC8B0040FBE1 /* druid_capstone_mvpApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5177AD2942BC8B0040FBE1 /* druid_capstone_mvpApp.swift */; };
+		6E5177B02942BC8B0040FBE1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5177AF2942BC8B0040FBE1 /* ContentView.swift */; };
+		6E5177B22942BC900040FBE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E5177B12942BC900040FBE1 /* Assets.xcassets */; };
+		6E5177B52942BC900040FBE1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E5177B42942BC900040FBE1 /* Preview Assets.xcassets */; };
+		6E5177BF2942BC900040FBE1 /* druid_capstone_mvpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5177BE2942BC900040FBE1 /* druid_capstone_mvpTests.swift */; };
+		6E5177C92942BC910040FBE1 /* druid_capstone_mvpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5177C82942BC910040FBE1 /* druid_capstone_mvpUITests.swift */; };
+		6E5177CB2942BC910040FBE1 /* druid_capstone_mvpUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5177CA2942BC910040FBE1 /* druid_capstone_mvpUITestsLaunchTests.swift */; };
+		6E5177D92942C0470040FBE1 /* constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5177D82942C0470040FBE1 /* constants.swift */; };
+		6E5177DB2942C0ED0040FBE1 /* webviewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5177DA2942C0ED0040FBE1 /* webviewContainer.swift */; };
+		6E5177DD2942C1240040FBE1 /* yolov5sTraffic.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 6E5177DC2942C1240040FBE1 /* yolov5sTraffic.mlmodel */; };
+		6E5177E02942C1700040FBE1 /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5177DF2942C1700040FBE1 /* LocationViewController.swift */; };
+		6E5177E22942C1AC0040FBE1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5177E12942C1AC0040FBE1 /* ViewController.swift */; };
+		6E5177E42942C1ED0040FBE1 /* ViewControllerDetection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5177E32942C1ED0040FBE1 /* ViewControllerDetection.swift */; };
+		6E5177E72942C36D0040FBE1 /* DisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5177E62942C36D0040FBE1 /* DisplayView.swift */; };
+		6E5177E92942C3B60040FBE1 /* NavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5177E82942C3B60040FBE1 /* NavigationView.swift */; };
+		6E5177EB2942C3EA0040FBE1 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5177EA2942C3EA0040FBE1 /* SettingsView.swift */; };
+		6E5177ED2942C5420040FBE1 /* TestFolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5177EC2942C5420040FBE1 /* TestFolder.swift */; };
+		6E5177EF2942C5A30040FBE1 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5177EE2942C5A30040FBE1 /* WebView.swift */; };
+		6E5177F12942C5F00040FBE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5177F02942C5F00040FBE1 /* AppDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6E5177BB2942BC900040FBE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E5177A22942BC8B0040FBE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E5177A92942BC8B0040FBE1;
+			remoteInfo = druid_capstone_mvp;
+		};
+		6E5177C52942BC910040FBE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E5177A22942BC8B0040FBE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E5177A92942BC8B0040FBE1;
+			remoteInfo = druid_capstone_mvp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6E5177AA2942BC8B0040FBE1 /* druid_capstone_mvp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = druid_capstone_mvp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E5177AD2942BC8B0040FBE1 /* druid_capstone_mvpApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = druid_capstone_mvpApp.swift; sourceTree = "<group>"; };
+		6E5177AF2942BC8B0040FBE1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6E5177B12942BC900040FBE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6E5177B42942BC900040FBE1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6E5177BA2942BC900040FBE1 /* druid_capstone_mvpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = druid_capstone_mvpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E5177BE2942BC900040FBE1 /* druid_capstone_mvpTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = druid_capstone_mvpTests.swift; sourceTree = "<group>"; };
+		6E5177C42942BC910040FBE1 /* druid_capstone_mvpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = druid_capstone_mvpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E5177C82942BC910040FBE1 /* druid_capstone_mvpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = druid_capstone_mvpUITests.swift; sourceTree = "<group>"; };
+		6E5177CA2942BC910040FBE1 /* druid_capstone_mvpUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = druid_capstone_mvpUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6E5177D82942C0470040FBE1 /* constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = constants.swift; sourceTree = "<group>"; };
+		6E5177DA2942C0ED0040FBE1 /* webviewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = webviewContainer.swift; sourceTree = "<group>"; };
+		6E5177DC2942C1240040FBE1 /* yolov5sTraffic.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = yolov5sTraffic.mlmodel; sourceTree = "<group>"; };
+		6E5177DF2942C1700040FBE1 /* LocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
+		6E5177E12942C1AC0040FBE1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6E5177E32942C1ED0040FBE1 /* ViewControllerDetection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerDetection.swift; sourceTree = "<group>"; };
+		6E5177E62942C36D0040FBE1 /* DisplayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayView.swift; sourceTree = "<group>"; };
+		6E5177E82942C3B60040FBE1 /* NavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationView.swift; sourceTree = "<group>"; };
+		6E5177EA2942C3EA0040FBE1 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		6E5177EC2942C5420040FBE1 /* TestFolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestFolder.swift; sourceTree = "<group>"; };
+		6E5177EE2942C5A30040FBE1 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		6E5177F02942C5F00040FBE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E5177A72942BC8B0040FBE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E5177B72942BC900040FBE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E5177C12942BC910040FBE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E5177A12942BC8A0040FBE1 = {
+			isa = PBXGroup;
+			children = (
+				6E5177AC2942BC8B0040FBE1 /* druid_capstone_mvp */,
+				6E5177BD2942BC900040FBE1 /* druid_capstone_mvpTests */,
+				6E5177C72942BC910040FBE1 /* druid_capstone_mvpUITests */,
+				6E5177AB2942BC8B0040FBE1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6E5177AB2942BC8B0040FBE1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E5177AA2942BC8B0040FBE1 /* druid_capstone_mvp.app */,
+				6E5177BA2942BC900040FBE1 /* druid_capstone_mvpTests.xctest */,
+				6E5177C42942BC910040FBE1 /* druid_capstone_mvpUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E5177AC2942BC8B0040FBE1 /* druid_capstone_mvp */ = {
+			isa = PBXGroup;
+			children = (
+				6E5177E52942C2510040FBE1 /* Views */,
+				6E5177DE2942C1450040FBE1 /* viewController */,
+				6E5177D72942C0080040FBE1 /* models */,
+				6E5177AD2942BC8B0040FBE1 /* druid_capstone_mvpApp.swift */,
+				6E5177AF2942BC8B0040FBE1 /* ContentView.swift */,
+				6E5177B12942BC900040FBE1 /* Assets.xcassets */,
+				6E5177B32942BC900040FBE1 /* Preview Content */,
+				6E5177F02942C5F00040FBE1 /* AppDelegate.swift */,
+			);
+			path = druid_capstone_mvp;
+			sourceTree = "<group>";
+		};
+		6E5177B32942BC900040FBE1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6E5177B42942BC900040FBE1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6E5177BD2942BC900040FBE1 /* druid_capstone_mvpTests */ = {
+			isa = PBXGroup;
+			children = (
+				6E5177BE2942BC900040FBE1 /* druid_capstone_mvpTests.swift */,
+			);
+			path = druid_capstone_mvpTests;
+			sourceTree = "<group>";
+		};
+		6E5177C72942BC910040FBE1 /* druid_capstone_mvpUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6E5177C82942BC910040FBE1 /* druid_capstone_mvpUITests.swift */,
+				6E5177CA2942BC910040FBE1 /* druid_capstone_mvpUITestsLaunchTests.swift */,
+			);
+			path = druid_capstone_mvpUITests;
+			sourceTree = "<group>";
+		};
+		6E5177D72942C0080040FBE1 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				6E5177DC2942C1240040FBE1 /* yolov5sTraffic.mlmodel */,
+				6E5177D82942C0470040FBE1 /* constants.swift */,
+				6E5177DA2942C0ED0040FBE1 /* webviewContainer.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		6E5177DE2942C1450040FBE1 /* viewController */ = {
+			isa = PBXGroup;
+			children = (
+				6E5177DF2942C1700040FBE1 /* LocationViewController.swift */,
+				6E5177E12942C1AC0040FBE1 /* ViewController.swift */,
+				6E5177E32942C1ED0040FBE1 /* ViewControllerDetection.swift */,
+			);
+			path = viewController;
+			sourceTree = "<group>";
+		};
+		6E5177E52942C2510040FBE1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6E5177E62942C36D0040FBE1 /* DisplayView.swift */,
+				6E5177E82942C3B60040FBE1 /* NavigationView.swift */,
+				6E5177EA2942C3EA0040FBE1 /* SettingsView.swift */,
+				6E5177EC2942C5420040FBE1 /* TestFolder.swift */,
+				6E5177EE2942C5A30040FBE1 /* WebView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E5177A92942BC8B0040FBE1 /* druid_capstone_mvp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E5177CE2942BC910040FBE1 /* Build configuration list for PBXNativeTarget "druid_capstone_mvp" */;
+			buildPhases = (
+				6E5177A62942BC8B0040FBE1 /* Sources */,
+				6E5177A72942BC8B0040FBE1 /* Frameworks */,
+				6E5177A82942BC8B0040FBE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = druid_capstone_mvp;
+			productName = druid_capstone_mvp;
+			productReference = 6E5177AA2942BC8B0040FBE1 /* druid_capstone_mvp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6E5177B92942BC900040FBE1 /* druid_capstone_mvpTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E5177D12942BC910040FBE1 /* Build configuration list for PBXNativeTarget "druid_capstone_mvpTests" */;
+			buildPhases = (
+				6E5177B62942BC900040FBE1 /* Sources */,
+				6E5177B72942BC900040FBE1 /* Frameworks */,
+				6E5177B82942BC900040FBE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E5177BC2942BC900040FBE1 /* PBXTargetDependency */,
+			);
+			name = druid_capstone_mvpTests;
+			productName = druid_capstone_mvpTests;
+			productReference = 6E5177BA2942BC900040FBE1 /* druid_capstone_mvpTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6E5177C32942BC910040FBE1 /* druid_capstone_mvpUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E5177D42942BC910040FBE1 /* Build configuration list for PBXNativeTarget "druid_capstone_mvpUITests" */;
+			buildPhases = (
+				6E5177C02942BC910040FBE1 /* Sources */,
+				6E5177C12942BC910040FBE1 /* Frameworks */,
+				6E5177C22942BC910040FBE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E5177C62942BC910040FBE1 /* PBXTargetDependency */,
+			);
+			name = druid_capstone_mvpUITests;
+			productName = druid_capstone_mvpUITests;
+			productReference = 6E5177C42942BC910040FBE1 /* druid_capstone_mvpUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E5177A22942BC8B0040FBE1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					6E5177A92942BC8B0040FBE1 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					6E5177B92942BC900040FBE1 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 6E5177A92942BC8B0040FBE1;
+					};
+					6E5177C32942BC910040FBE1 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 6E5177A92942BC8B0040FBE1;
+					};
+				};
+			};
+			buildConfigurationList = 6E5177A52942BC8B0040FBE1 /* Build configuration list for PBXProject "druid_capstone_mvp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6E5177A12942BC8A0040FBE1;
+			productRefGroup = 6E5177AB2942BC8B0040FBE1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E5177A92942BC8B0040FBE1 /* druid_capstone_mvp */,
+				6E5177B92942BC900040FBE1 /* druid_capstone_mvpTests */,
+				6E5177C32942BC910040FBE1 /* druid_capstone_mvpUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E5177A82942BC8B0040FBE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E5177B52942BC900040FBE1 /* Preview Assets.xcassets in Resources */,
+				6E5177B22942BC900040FBE1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E5177B82942BC900040FBE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E5177C22942BC910040FBE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E5177A62942BC8B0040FBE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E5177E72942C36D0040FBE1 /* DisplayView.swift in Sources */,
+				6E5177B02942BC8B0040FBE1 /* ContentView.swift in Sources */,
+				6E5177EF2942C5A30040FBE1 /* WebView.swift in Sources */,
+				6E5177E92942C3B60040FBE1 /* NavigationView.swift in Sources */,
+				6E5177F12942C5F00040FBE1 /* AppDelegate.swift in Sources */,
+				6E5177DB2942C0ED0040FBE1 /* webviewContainer.swift in Sources */,
+				6E5177AE2942BC8B0040FBE1 /* druid_capstone_mvpApp.swift in Sources */,
+				6E5177E02942C1700040FBE1 /* LocationViewController.swift in Sources */,
+				6E5177E22942C1AC0040FBE1 /* ViewController.swift in Sources */,
+				6E5177D92942C0470040FBE1 /* constants.swift in Sources */,
+				6E5177E42942C1ED0040FBE1 /* ViewControllerDetection.swift in Sources */,
+				6E5177DD2942C1240040FBE1 /* yolov5sTraffic.mlmodel in Sources */,
+				6E5177EB2942C3EA0040FBE1 /* SettingsView.swift in Sources */,
+				6E5177ED2942C5420040FBE1 /* TestFolder.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E5177B62942BC900040FBE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E5177BF2942BC900040FBE1 /* druid_capstone_mvpTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E5177C02942BC910040FBE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E5177CB2942BC910040FBE1 /* druid_capstone_mvpUITestsLaunchTests.swift in Sources */,
+				6E5177C92942BC910040FBE1 /* druid_capstone_mvpUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6E5177BC2942BC900040FBE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E5177A92942BC8B0040FBE1 /* druid_capstone_mvp */;
+			targetProxy = 6E5177BB2942BC900040FBE1 /* PBXContainerItemProxy */;
+		};
+		6E5177C62942BC910040FBE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E5177A92942BC8B0040FBE1 /* druid_capstone_mvp */;
+			targetProxy = 6E5177C52942BC910040FBE1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6E5177CC2942BC910040FBE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6E5177CD2942BC910040FBE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6E5177CF2942BC910040FBE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"druid_capstone_mvp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.deeging.druid-capstone-mvp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6E5177D02942BC910040FBE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"druid_capstone_mvp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.deeging.druid-capstone-mvp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6E5177D22942BC910040FBE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.deeging.druid-capstone-mvpTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/druid_capstone_mvp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/druid_capstone_mvp";
+			};
+			name = Debug;
+		};
+		6E5177D32942BC910040FBE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.deeging.druid-capstone-mvpTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/druid_capstone_mvp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/druid_capstone_mvp";
+			};
+			name = Release;
+		};
+		6E5177D52942BC910040FBE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.deeging.druid-capstone-mvpUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = druid_capstone_mvp;
+			};
+			name = Debug;
+		};
+		6E5177D62942BC910040FBE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.deeging.druid-capstone-mvpUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = druid_capstone_mvp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E5177A52942BC8B0040FBE1 /* Build configuration list for PBXProject "druid_capstone_mvp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E5177CC2942BC910040FBE1 /* Debug */,
+				6E5177CD2942BC910040FBE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E5177CE2942BC910040FBE1 /* Build configuration list for PBXNativeTarget "druid_capstone_mvp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E5177CF2942BC910040FBE1 /* Debug */,
+				6E5177D02942BC910040FBE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E5177D12942BC910040FBE1 /* Build configuration list for PBXNativeTarget "druid_capstone_mvpTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E5177D22942BC910040FBE1 /* Debug */,
+				6E5177D32942BC910040FBE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E5177D42942BC910040FBE1 /* Build configuration list for PBXNativeTarget "druid_capstone_mvpUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E5177D52942BC910040FBE1 /* Debug */,
+				6E5177D62942BC910040FBE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6E5177A22942BC8B0040FBE1 /* Project object */;
+}
